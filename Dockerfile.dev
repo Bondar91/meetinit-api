@@ -1,0 +1,21 @@
+FROM node:latest
+
+RUN echo "running dev mode - api"
+
+ADD . ./app
+WORKDIR /app
+
+RUN ls -a 
+
+# Install dependencies:
+RUN npm install -g typescript --silent
+RUN npm install -g ts-node --silent
+RUN npm install -g nodemon --silent
+
+RUN npm install -g @types/node --silent
+RUN npm install -g @types/express --silent
+
+RUN npm install
+
+EXPOSE 3000
+ENTRYPOINT [ "npm", "start" ] 
