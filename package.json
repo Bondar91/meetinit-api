@@ -1,0 +1,23 @@
+{
+  "name": "meetinit-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bondar91/meetinit-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bondar91/meetinit-api/issues"
+  },
+  "homepage": "https://github.com/Bondar91/meetinit-api#readme"
+}
